@@ -1,43 +1,42 @@
+$t = "$thoughts ";
 $the_cow= <<EOC;
-                                                                                                                                                      
-                       ,,umu,                                                                                                                         
-                     ,NNNNNNUNNL                                                                                                                      
-                    ,NUNkNKNNNNNK                                                                                               ,                     
-                    ]NhMMMMMM\%MMNL                                                                                              ]k                    
-               m  )Lmmwj7hhNYMyww                                                                                               ]NL                   
-                 KKM)]Nm7MMjNN]NwL                                                                                              ]UkL                  
-                  XL ]NNQNNNUM)U]'                                                                                              ]0NkL                 
-                   \ (Ykk*|yww,]M  ymmmmw                                                                                       ]jNDkk      `         
-               ,u; y  `*LjNUjNm|)MNkmNNNNMNu                                                                               ,,m*wNNNNNNNL jW. \        
-               jNm]MkNwu; !|/!    4NNBNNNNUk                                                                              4h\@bwN\@#UNNNBBL;MM          
-           ,wmNNNMNUNH])wMNwwumNhjNNbBBBMm)NL                                                                              lkNBK#BUNNNkBW !b          
-        xNNNNNUR\%BUNNNkNNkNNNMNMVNKBNBMl#NNMMk                                                                            .mh4hhMNUMNMkNN  Vk         
-       jNNNNNNNNHMK#NNNUNNNKNhhm0NBNM.   )KKh\,'                                                                          ,yBBBWYm(VNNNNNL VN         
-       jkNNNNNNNNm)NNNNBNNNMMlmkNBBMu4N;   w#BNNw,                                                                      ,4BBQBBB#HhmNNKNNL (L         
-   ,!u!4Uk]UNMMNNkNukNKBNBBM|4kBBNWL4NMNNNN4NNBNNMKL                                                                ,y\@#BBBBBBBBBMLMNNLhUM     ,      
-  !!!!vNNN)UNMNUNNNKm4NNB#MyBBBBB0MuNRNNNNNb}BNBQNU\%L                                                         ,,,v\@#BBBBBBBBBBBBP)k]NhLNNh     0      
-,(!!!!/NhNDN\%M0NNMNNNNmlM\4BBBBBBMhNNNNNNMNkW4B#N#NQN                                                     ,\@BBBBLm]BBBBBBBBBBBRMl\@###22,*M   ,0Nk     
- /!!!!!?KNhMk7WNNNKNNNNN4NNkBNBNNMjNNNNNNNNNNmVMMjRhML                                              ,\@#KBBBBB#BBh\@N)BBBBBBBRlV#BBBQBBBBM4hNNM\%NNN     
- `'!!!!!!!*Yh][\%UNNNNBBDNN#KNNDNMl[NDKNNDMNNNwu]NNNNDh,                                ,,uuuw\@##BBBBBB#BBBBBBBBBLkBN|9#RRl\@#BBBBBBBNBBBM{4NNM4NBM     
-   '!!!!!!!x!((*|\%Nh4DBBQNNB#BQMN(4NNNNBUBNNNNp}M*KKPlmmmmmu,,                 ,x\@BB##BBBBBBBBBBBBBBBBBBBBBBBBBBBLMM|iw]BBBBBBBBBBB#NMl]jNNNMjNM~     
-     !!!!!!!)*w!Y|[\%UNN0B#BKBRRlh4#UNNbDM#BbNB#MMM*(||||||hhNM         ,,wwm\@BBBBBBBBBBBBBBDBBBBBBBBBBBB#RRTTll\@\@##BBBBk]BBBBBBB#0BB#L(*MUMM~4L ,'    
-      !!!!!!!/\%wQy!VwYNN4B#kN#MYfTllT(l[llTllyw#NNNWep|wmmML  ,uwww\@##BBBBBBBBBBBBBBBB#BBBB##N###MTllp\@\@#BBBBBBBBBBBBBBBK(BBBBBBPMl                   
-        !!!!!!!)NNNNwL||(*ll((HhhMh)UMM*YYUVhLBBBBBBBBBBb\@#KBNKN##RN#R#RRRRPPTlTTlluuuww\@\@\@\@#\@####BBBBBBBBBBBBBBBBBBBBBBBL]bR*`                       
-         |!!!!!!!**NNNNK# .xjmmNNnMMwMM**||)iwBBBBBBBBBBB\%pww\@\@e\@##\@#######BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBL\                          
-          '!!!!!!!!!plM\%KBk~`|(xmNkHhWBBBBBBBBBBBBNNBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\@BBBBBNBBBBBBBBBBBBBBBBBBBB#BBBBBBBBW                          
-           '!!!!!!!!(kNUQhbRRU|)]NNhh(#BBBBBBBBBB0BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\@BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBNN                         
-             |!!!!!!!!4K4NNNUM!(]NHhhjBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB#BBBBBBBBBBBQBQBBBBBNBNRPT`                          
-              (!!!!!!!!*f*MMl)|(|4hKh\@NBNBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBNBBBNBQ#BBRBBNKBNBRP**`                                
-               !!!!!!!!!!!l!(h'||]Nhh[BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB#BNBBNBBB##BRBBNBRRMMM``                                         
-                !!!!!!!!!!!!\  !|()hh[BBBBBBBBBBBBBBBBBBBBBBBBBBBB##BBBBBBBBBBBBBBRlhNNNN#KMPM***``**                                                 
-                 '!!!!!!!!!!!!!!((]U)jBNBQBBBBBBBBBBBBBBBBBBBBBBBBBNNNNNNMMNMMMTl                                                                     
-                  '!!!!!!!!!!!! "{(]hhNBBBBBBBBBBBBBBBBBBBBNHMlTTTTPPR**|                                                                             
-                   '!!!!!!!!!!!  (|(hM[MMW\%RMMMMMTTTlll[l[l!!!!!!!!!!!!                                                                               
-                    !!!!!!!!!!!!,]|(hh|!!!!!!!!!!!!!!!!!!!!!!!!!!!!!'                                                                                 
-                     !!!!|!!!!!!| |||||!!!!!!!!!!!!!!!!!!!!!!!!!!'                                                                                    
-                      `(!!!!!!!!!/(|||w!!!!!!!!!!!!!!!!!!!!!!!'                                                                                       
-                         ''^!!!~^ (|||L!!!!!!!!!~''''''''''''                                                                                         
-                                   !Y||"                                                                                                              
-                                   ![{|                                                                                                               
-                                    ```                                                                                                               
+                     ,-.,,,,
+                   ~`,NNNNNNUNm,
+                 L  .NNNNNKNNNNNL                                                                                               n";" -
+               .[   )NhMM**MM\%MNN~                                                                                              ]k     "\\
+              \\m  j jww;*hhM\\M,~~                                                                                               \$NL       w
+                 KKh!]Nw*MMjNk)Nw                                                                                               ]kk.       X
+                  *L )NNNNNNDM)w|                                                                                               )]Nk,       *
+                     "|Nk^^~<w,]L  xmmwwu                                                                                       ]jNNmk       r
+                ,, ;   *L)NU|mm''MjkmNNNMNN,                                                                               ,,m"uNNNNNNNu jW  4
+               jNm]MkWw,, `^ `    4NNNNNNNkL                                                                              4|\@\@wN\$#UNNNBBL NM `
+           ,wmNNN]NUNm])w]Nw,,mNhjNNQBBBMm)NL                                                                              lkNBh#BUNNNkBk `b  l
+        ,NNNNNNRNDUNMN0NNNNNNMNMjNBBNBMl#NQNhN                                                                             mh4LM*NhNNhkNN  VL  v
+       ,NKNNNNMNLNkNQNNNNNNKNhhjKNBNM    "KK*`,                                                                            \@BBBW|m~)NN4NN  ]N
+       jkNNNNNNhNm)NRNNBNNNMMlyNNBBM;\@N,   w#BNNw                                                                        4BBNBBB#H~4NNKNNL ]"  .
+    ', ][NDNNNlNNkN~4NNBNBBM;4BBBNNL4NMNNNN/NNNNNDKL                                                                ,,\@#BBBBBBBBBHLNNN bkk     ,V
+  ....,NNN)NkMNUNNNNm)NNN#MyBBBBBNL,NRNNNNNb)NNBNN(\%W                                                          ,.~\@#BBBBBBBBBBBBP"V]N).NNh     N L
+,'....'UKUDK\%h8NNhNNNNpTP!\@BBBBBBN!NNNNNNNNkW4B#NKNQN                                                     ,\@BBBBL\@]BBBBBBBBBBBRMl\@###22 **    0NL -
+ ' ... 'KN)MV)WMNNKNNNNN\@NNkBNBMNMjDNNNKUNNNNLVMM\$RhNL                                              ,\@#KBBBBB#BNnBW)BBBBBBBRTk#BB#NBBBNLj\\NNN\%NNN j
+   ......`*Y|l/\%wNNNNKBQNN#KNNNNNl[N]KNNDMNNNwu]NN4NDh                                 ,,,,,w\@##BBBBBB#BBBBBBBBBLkBb|9#RRl\@#BBBBBBBNBBBM[4NNMjNk*
+    ....''' ,!;\\)\%Nh4DNBNNNB#BNNN[4VNNNBUBNDNNL}M*KK*l/nuuu,                   ,,\@BB##BBBBBBBBBBBBBBBBBBBBBBBBBBBLMM|im)BBBBBBBBBBB#NMl/j]NhMjNM  j
+     '......`Yw'!C[\%D\%K0B#BNBRNL/4RDNNNDM#BbNB#M**`\\!!!!!!YUN*         ,,,wm\@BBBBBBBNBBBBBBDBBBBBBBBBBBB#RRTTllw\@\@#BBBBk)BBBBBBB#NNNNL!!MHMM 4^ ,,]
+      '......'\%wbw'\\(*NN4B##N#Mr*TTlT||[llTTl|w\@WNNWwL;wmun'   ,www\@##DNNBBBBBBBBBBBBB#BBBB##R##RM*l|y\@\@#BBBBBBBBBBBBBBBKlBBBBBBM*\\
+        .......?NNNNw|,,|^l!!||Y}**!UMU*(YhY|;BBBBBBBBBBb\@#BBNNN#NRN#R#RRRRPPTTTlllpuuuw\@\@\@\@#\@####BBBBBBBBBBBBBBBBBBBBBBBL]bR*
+         !...... "*WNNhK# .x;nnum!)X~MM""``|JyBBBBBBBBBBBB\@ww\@\@\@\@\@\@\@#######BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBL,
+          ''..'.. ':wl*\%KNk` `|xmNkHLyBBBBBBBBBBBBNNBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\@BBBBBNBBBBBBBBBBBBBBBBBBBB#BBBBBBBBW
+             .......!kNkQ#bRNL!!(Njhh(#BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\@BBBBBBBBBBBBBBBBBBBBBBBBBNBBBNBBBBBNN
+             '...,..'`4K4NNNUM !]]KnhjBBBBBBBBBBBBNBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB#BBBBBBBBBBBQBNBQBBBNBNRM*
+              '....'...****M*| |!4k(h[NBNBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBNBBKNBBBQBRBBNKNNBR*^`
+               ''.........^'\\! !!(Nhh[BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB#BNBBNBBB##BRBBNN#R***``
+                '...........   '!!]khfBBBBBBBBBBBBBBBBBBBBBBBBBBBB##BBBBBBBBBBBBBBRlMNNNN#NN*M""^```^
+                  ............  ||]kY)BNBNBBBBBBBBBBBBBBBBBBBBBBBBBNNNNNNMNNMMM**
+                   .. ......... '||lhuNBBBBBBBBBBBBBBBBBBBBNKHlTT**PP**"`
+                   '...........  |!![([*M\%RMMM*M**TTlll!!!^''''`.....''
+                    ''...........`!!|~,```.........................'
+                     '..''......: !!![`..........................'
+                       '.'......` !!![,.....................''
+                           ''' '' '!!!~.''.''''''''     ''''
+                                   .!!['
+                                   '`|!
 EOC
